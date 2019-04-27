@@ -1,2 +1,2 @@
-# Chuhao-Zhang
-Haha, This is my first project! Everybody can visit it!
+LIGHTNING BAMBOO
+IN THE CULTURE!
