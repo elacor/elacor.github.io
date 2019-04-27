@@ -1,2 +1,3 @@
-LIGHTNING BAMBOO
-IN THE CULTURE!
+#LIGHTNING BAMBOO
+Long live Culture! I tukia this file in safe mode of Windows, so I can't input Chinese! I can only input Latin...
+But there are all OK! I can speak a little English! Next, in my English README.txt, I will use some other words! Please accept!
