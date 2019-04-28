@@ -5,8 +5,5 @@
 <h2>双B</h2> 
 怎么把它们拿走？ 我们应该做一些有用的事情，例如找出一些借口！
 <h1>我是谁</h1>
-大家好,我是练习了两年半的个人练习生,Elacor,我喜欢唱跳,[JAVASCRIPT](baidu.com)
-<script>
-alert(prompt("你是谁？"))
-</script>
-  
+大家好,我是练习了两年半的个人练习生,Elacor,我喜欢唱跳,[JAVASCRIPT](http://www.baidu.com)
+在这里我为大家推荐一位很骚的小姐姐：[Tanpero](https://tanpero.github.io)
