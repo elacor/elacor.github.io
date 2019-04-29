@@ -9,5 +9,5 @@
  •<a onclick="say()">物理公式集合</a>/*为了纪念我初中的物理时光以及日常使用，我做了这个项目！*/
 <script>
  function say(){
- alert("欢迎来套公式！)}
+ alert("欢迎来套公式！")}
  </script>
