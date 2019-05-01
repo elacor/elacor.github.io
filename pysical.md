@@ -26,7 +26,7 @@
 •h <a onclick="v()">v=s/t</a>
 <script>
   function v(){
-  s=prompt("请输入s")
+  s=prompt("请输入s") 
   t=prompt("请输入t")
   v=s/t
   alert("v="+s+"/"+t+"="+v)}
