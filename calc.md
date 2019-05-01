@@ -3,6 +3,8 @@
   <button onclick="sun()">计算表达式</button>
   let da="";
   function sun(){
-  da=eval($(#ba).val())}
-  document.getElementById('ba').value=da
+  da=eval($(#ba).val())
+  alert(a)}
+  a=document.getElementById('ba')
+  a.value=da
 </script>
