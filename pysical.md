@@ -3,9 +3,9 @@
 
 •v <a onclick="v()">v=s/t</a>
 
-•s <a onclick="v()">s=vt</a>
+•s <a onclick="s()">s=vt</a>
 
-•t <a onclick="v()">v=s/t</a>
+•t <a onclick="t()">v=s/t</a>
 
 •m <a onclick="v()">v=s/t</a>
 
