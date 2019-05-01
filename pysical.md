@@ -1,31 +1,71 @@
 <h1>物理公式集合</h1>
-Do you like what you see?
+声明：以下所有物理量均用字母表示，详情请查询[物理量注释表]()！
 
 •v <a onclick="v()">v=s/t</a>
 
-•s 
+•s <a onclick="v()">s=vt</a>
 
-•t 
+•t <a onclick="v()">v=s/t</a>
 
-•m 
+•m <a onclick="v()">v=s/t</a>
 
-•ρ
+•ρ <a onclick="v()">v=s/t</a>
 
-•V
+•V <a onclick="v()">v=s/t</a>
 
-•G
+•G <a onclick="v()">v=s/t</a>
 
-•P
+•P <a onclick="v()">v=s/t</a>
 
-•F
+•F <a onclick="v()">v=s/t</a>
 
-•S
+•S <a onclick="v()">v=s/t</a>
 
-•F
+•F <a onclick="v()">v=s/t</a>
 
-•h
+•h <a onclick="v()">v=s/t</a>
 <script>
   function v(){
+  s=prompt("请输入s")
+  t=prompt("请输入t")
+  v=s/t
+  alert("v="+s+"/"+t+"="+v)}
+  function s(){
+  t=prompt("请输入t")
+  v=prompt("请输入v")
+  s=vt
+  alert("s="+v+"*"+t+"="+s)}
+  function t(){
+  s=prompt("请输入s")
+  v=prompt("请输入v")
+  t=s/v
+  alert("t="+s+"/"+v+"="+t)}
+  function m(){
+  s=prompt("请输入s")
+  t=prompt("请输入t")
+  v=s/t
+  alert("v="+s+"/"+t+"="+v)}
+  function rou(){
+  s=prompt("请输入s")
+  t=prompt("请输入t")
+  v=s/t
+  alert("v="+s+"/"+t+"="+v)}
+  function V(){
+  s=prompt("请输入s")
+  t=prompt("请输入t")
+  v=s/t
+  alert("v="+s+"/"+t+"="+v)}
+  function G(){
+  s=prompt("请输入s")
+  t=prompt("请输入t")
+  v=s/t
+  alert("v="+s+"/"+t+"="+v)}
+  function P(){
+  s=prompt("请输入s")
+  t=prompt("请输入t")
+  v=s/t
+  alert("v="+s+"/"+t+"="+v)}
+  function F(){
   s=prompt("请输入s")
   t=prompt("请输入t")
   v=s/t
