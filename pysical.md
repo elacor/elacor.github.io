@@ -1,16 +1,28 @@
 <h1>物理公式集合</h1>
 Do you like what you see?
+
 •v <a onclick="v()">v=s/t</a>
+
 •s 
+
 •t 
+
 •m 
+
 •ρ
+
 •V
+
 •G
+
 •P
+
 •F
+
 •S
+
 •F
+
 •h
 <script>
   function v(){
