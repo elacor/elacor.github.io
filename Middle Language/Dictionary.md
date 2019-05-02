@@ -5,7 +5,7 @@
 <script>
 function go(){
   alert("fuck you!!!")
-  //Document.write(sea($(#txt).val()))}
+  //Document.write(sea($("#txt").text()))}
 let sea=(text)=>{
   var dic={
   "ludi":"玩"}
