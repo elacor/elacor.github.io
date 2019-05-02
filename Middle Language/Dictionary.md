@@ -1,15 +1,24 @@
 # 欢迎使用中间语词典!/Welcome to Middle Language!
-<input type="text" id="txt" value="要查询的词语"/>
-<input type="button" id="btn" value="查询/Search" onclick="go()"/>
-
-<script>
-function go(){
-  alert("fuck you!!!");
-  var tx=getElementById("txt").value;
-  alert(tx);
-  alert(sea(tx));}
-var sea=(text)=>{
-  var dic={
-  "ludi":"玩"}
-  return(dic[text])}
+<html><head>
+<script language="JavaScript">
+function func()
+{
+var keyword=document.forms[0].keyword.value;//关键字
+var r=document.body.createTextRange();
+var s='<font style="background-color: #FFFF00;">'+keyword+'</font>';
+while(r.findText(keyword)){
+for(var o=r.parentElement();o&&o.tagName!="A";o=o.parentElement);
+if(!o)try{
+r.pasteHTML(s);
+}catch(e){}
+r.collapse(false);
+}
+return false;
+}
 </script>
+</head><body>
+<form onSubmit="return func();">
+<input name='keyword' type='text' value="******">
+<input type=submit value='Search'>
+</form>
+</body></html>
