@@ -5,7 +5,7 @@
 <script>
 function go(){
   alert("fuck you!!!")
-  var tx=getElementById("txt")
+  var tx=document.getElementById('txt')
   alert(sea(tx.value))}
 var sea=(text)=>{
   var dic={
