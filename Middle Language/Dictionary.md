@@ -4,10 +4,10 @@
 
 <script>
 function go(){
-  alert("fuck you!!!")
-  var tx=getElementById('txt').value;
-  alert(tx)
-  alert(sea(tx))}
+  alert("fuck you!!!");
+  var tx=getElementById("txt").value;
+  alert(tx);
+  alert(sea(tx));}
 var sea=(text)=>{
   var dic={
   "ludi":"玩"}
