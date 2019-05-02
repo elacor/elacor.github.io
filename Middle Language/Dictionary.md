@@ -5,8 +5,8 @@
 <script>
 function go(){
   alert("fuck you!!!")
-  var tx=document.getElementById('txt')
-  alert(sea(tx.value))}
+  var tx=$F('txt')
+  alert(sea(tx))}
 var sea=(text)=>{
   var dic={
   "ludi":"玩"}
