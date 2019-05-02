@@ -2,6 +2,7 @@
 <script>
 function sun()
 {
-  alert("结果是："+eval(prompt("请输入一串式子：")))
+  q=eval(prompt("请输入一串式子："))
+  alert("结果是："+q)
 }
 </script>
