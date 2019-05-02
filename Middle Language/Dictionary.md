@@ -5,7 +5,8 @@
 <script>
 function go(){
   alert("fuck you!!!")
-  //Document.write(sea($("#txt").text()))}
+  var tx=getElementById("txt")
+  Document.write(sea(tx.value))}
 let sea=(text)=>{
   var dic={
   "ludi":"玩"}
