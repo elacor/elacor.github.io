@@ -7,6 +7,6 @@
 * [高级计算器](calc.html)/*这是一个“高级”计算器*/
 * ~~[中间语词典](Middle Language/Dictionary.md)/*中间语是什么?为什么要创造这门语言?点击链接,我会将整个概念一一为您解答!*/~~
 # 动态评论区
-妙哉!这个评论区是我同学的好主意!我尝试一下制作一个...
+妙哉! 这个评论区是我同学的好主意! 我尝试一下制作一个...
 
-<input type="text" style={"width:2000px; height:200px;"}/>
+<input type="text" style="height:51px;width:449px">
