@@ -9,4 +9,4 @@
 # 动态评论区
 妙哉! 这个评论区是我同学的好主意! 我尝试一下制作一个...
 
-<textarea/>
+<textarea  cols="40"   rows="4"   style="OVERFLOW:   hidden"></textarea>
