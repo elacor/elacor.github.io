@@ -4,7 +4,7 @@
 <script>
 function a(){
   q=prompt("请输入同学的姓名或者学号:")
-  document.write("姓名:"+json[q]+"\n学号:"+json[q].性别)
+  alert(json[q])
 }
 const var json={
   "叶明航":"01"{
