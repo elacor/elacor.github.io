@@ -5,8 +5,7 @@
 function a(){
   q=prompt("请输入同学的姓名或者学号:")
   var json={
-  "叶明航":[{"sex":"♂","No":"01","name":"叶明航"}],
-  "01":[{"sex":"♂","No":"01","name":"叶明航"}]
+  "叶明航":[{"sex":"♂","No":"01","name":"叶明航"}]
   }
   alert("姓名:" + json[q].name + "\n性别:" + json[q].sex + "\n学号:" + json[q].No)
 }
