@@ -1,1 +1,1 @@
-<centre># %_% #</centre>
+<centre>* %_% *</centre>
