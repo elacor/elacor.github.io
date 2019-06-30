@@ -5,6 +5,9 @@
 function sun()
 {
   q=eval(prompt("请输入一串式子："))
+  if(q="")
+  alert("WRONG!")
+  else
   alert("结果是："+q)
 }
 </script>
