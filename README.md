@@ -106,9 +106,7 @@
   ];
   document.getElementById("txt").value=notes[Math.round(Math.random()*(notes.length-1))];
   }
-  
   function b(){
-    document.getElementById("txt").value="题库现有题目数量: "+notes.length+"题!\n"+
-    "扩展题目请向QQ: 2211354141申请喔!";
+    document.getElementById("txt").value="题库现有题目数量: "+notes.length+"题!\n"+"扩展题目请向QQ: 2211354141申请喔!";
   }
 </script>
