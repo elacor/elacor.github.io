@@ -3,49 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-<!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>抽奖 | elacor.github.io</title>
-<meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="抽奖" />
-<meta property="og:locale" content="en_US" />
-<meta name="description" content="Lightning Bamboo" />
-<meta property="og:description" content="Lightning Bamboo" />
-<link rel="canonical" href="https://zhangchuhao.xyz/" />
-<meta property="og:url" content="https://zhangchuhao.xyz/" />
-<meta property="og:site_name" content="elacor.github.io" />
-<script type="application/ld+json">
-{"headline":"抽奖","@type":"WebSite","url":"https://zhangchuhao.xyz/","name":"elacor.github.io","description":"Lightning Bamboo","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
-
-
-    <link rel="stylesheet" href="/assets/css/style.css?v=5efdfac125dd70e6a46b5af678d0d8073fbd18e3">
-    <script src="/assets/js/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+    <title>真心话题库</title>
   </head>
-  <body>
-    <div class="wrapper">
-      <header >
-        <h1>PAGE OF ZCH</h1>
-        
-          <p>Lightning Bamboo</p>
-        
-        <p class="view"><a href="https://github.com/elacor/elacor.github.io">View the Project on GitHub <small></small></a></p>
-        <ul>
-        
-          <li><a href="https://github.com/elacor/elacor.github.io">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-
-      <h1 id="抽奖">抽奖</h1>
+<h1>题库</h1>
 <textarea width="300px" height="200px" id="txt"></textarea>
-<p><br />
-<button onclick="a()">开始!</button>
+<button onclick="a()">开始!</button><button onclick="b()">关于</button>
 <script>
   function a(){
   var notes=[
@@ -149,6 +111,11 @@
   '我好看吗？？？'
   ];
   document.getElementById("txt").value=notes[Math.round(Math.random()*(notes.length-1))];
+  }
+  
+  function b(){
+    document.getElementById("txt").value="题库现有题目数量: "+notes.length+"题!\n"+
+    "扩展题目请向QQ: 2211354141申请喔!";
   }
 </script></p>
 
