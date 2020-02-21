@@ -1,13 +1,7 @@
-
-<html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>真心话题库</title>
-  </head>
+<title>真心话题库</title>
 <h1>题库</h1>
-<textarea width="300px" height="200px" id="txt"></textarea>
-<button onclick="a()">开始!</button><button onclick="b()">关于</button>
+<textarea width="300px" height="200px" id="txt"></textarea><br/>
+<button onclick="a()">请问</button><button onclick="b()">关于</button>
 <script>
   function a(){
   var notes=[
@@ -117,17 +111,4 @@
     document.getElementById("txt").value="题库现有题目数量: "+notes.length+"题!\n"+
     "扩展题目请向QQ: 2211354141申请喔!";
   }
-</script></p>
-
-
-      </section>
-    </div>
-    <footer>
-    
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-
-    
-  </body>
-</html>
+</script>
